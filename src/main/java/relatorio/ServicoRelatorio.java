@@ -2,7 +2,7 @@ package relatorio;
 
 /**
  *
- * @author Claudio
+ * @author Manoel
  */
 // ****Caso 1 - dependência por meio de um método de atribuição (setter)
 public class ServicoRelatorio {
@@ -36,7 +36,7 @@ public class ServicoRelatorio {
 		if (tipo == 1)
 			geradorRelatorio = new GeradorRelatorioPdf();
 		else if (tipo == 2)
-			geradorRelatorio = new GeradorRelatorioHtml();
+			geradorRelatorio = new GeradorRelatorioHtmlAnotacao();
 	}
 
 	// ****fim caso 3
